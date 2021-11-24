@@ -27,7 +27,7 @@ Crawler:
 - start – crawler starts.
 - grab – crawler starts to grab an article.
 - f-grab – an article has been grabbed and loaded into the buffer. wait – crawler starts waiting for available space in the buffer. s-wait – crawler stops waiting.
-- quit – crawler finished all job and about to quit.
+- quit – crawler finished all job and about to quit.\n
 Classifier:
 - start – classifier starts.
 - clfy – classifier starts to classify an article.
