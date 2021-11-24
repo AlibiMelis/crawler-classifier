@@ -9,7 +9,7 @@ A classifier thread is created to classify the articles grabbed by the crawlers 
 Sentiment analysis, which is a powerful technique based on natural language processing, has a wide range of applications, including consumer reviews analysis, recommender system, political campaigning, stock speculation, etc. A sentiment analysis model requires a large text corpus, which consists of classified articles grabbed from the internet using web crawlers.
 
 ## User Guide
-1) Open terminal and make sure that generator.cpp and 55850833_55819497.cpp are in same folder
+1) Open terminal and make sure that generator.cpp and main.cpp are in same folder
 2) Enter "g++ file_name -lpthread -o crawling" to compile cpp file (Note: file_name in our case is main.cpp)
 3) Enter "./crawling [ interval_A ] [ interval_B ]" to run the program ( e.g ./crawilng 1000000 1000000)
 4) Then program will output the table
