@@ -10,7 +10,7 @@ Sentiment analysis, which is a powerful technique based on natural language proc
 
 ## User Guide
 1) Open terminal and make sure that generator.cpp and 55850833_55819497.cpp are in same folder
-2) Enter "g++ file_name -lpthread -o crawling" to compile cpp file (Note: file_name in our case is 55850833_55819497.cpp)
+2) Enter "g++ file_name -lpthread -o crawling" to compile cpp file (Note: file_name in our case is main.cpp)
 3) Enter "./crawling [ interval_A ] [ interval_B ]" to run the program ( e.g ./crawilng 1000000 1000000)
 4) Then program will output the table
 5) Also program will create textCorpus.txt file, where keys, class labels and original articles will be stored
